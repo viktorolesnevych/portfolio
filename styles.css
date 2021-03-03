@@ -1,0 +1,91 @@
+body {
+  font-family: "Akaya Telivigala", cursive, Helvetica, sans-serif;
+  font-size: 18px;
+  margin: 0;
+}
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  color: #fff;
+  height: 100vh;
+  min-height: 600px;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(9, 121, 97, 1) 35%,
+    rgba(0, 212, 255, 1) 100%
+  );
+}
+
+.header {
+  display: flex;
+  height: 1 0vh;
+  justify-content: space-between;
+  align-items: center;
+  width: 90vw;
+  margin-top: 10px;
+}
+
+.logo a {
+  font-size: 42px;
+  color: #42eaf4;
+  border: 1px solid lightseagreen;
+  padding: 10px 20px;
+  border-radius: 100px;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.menu {
+  width: 50vw;
+}
+.menu ul {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+}
+
+.menu-link {
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.main-text {
+  text-align: center;
+}
+.main-text span {
+  font-size: 18px;
+}
+.main-text h1 {
+  margin: 0;
+  font-size: 58px;
+}
+
+.main-text span {
+  text-transform: uppercase;
+}
+
+.arrow {
+  margin-bottom: 10px;
+}
+
+@keyframes blink {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.arrow img {
+  animation: blink 4s;
+  animation-iteration-count: infinite;
+}
