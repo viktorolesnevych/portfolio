@@ -3,14 +3,17 @@ body {
   font-size: 18px;
   margin: 0;
 }
-.main {
+.items-container {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  color: #fff;
   height: 100vh;
   min-height: 600px;
+}
+
+#main {
+  color: #fff;
   background: rgb(2, 0, 36);
   background: linear-gradient(
     90deg,
@@ -22,7 +25,7 @@ body {
 
 .header {
   display: flex;
-  height: 1 0vh;
+  height: 10vh;
   justify-content: space-between;
   align-items: center;
   width: 90vw;
@@ -88,4 +91,34 @@ body {
 .arrow img {
   animation: blink 4s;
   animation-iteration-count: infinite;
+}
+
+#projects {
+  background: rgb(34, 195, 159);
+  background: linear-gradient(
+    0deg,
+    rgba(34, 195, 159, 1) 0%,
+    rgba(255, 255, 255, 1) 100%
+  );
+  justify-content: space-around;
+}
+.projects-list ul {
+  display: flex;
+  width: 90vw;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+}
+
+.projects-list ul li {
+  height: 300px;
+  width: 300px;
+  border: 2px solid black;
+}
+
+#resume {
+  background-color: black;
+}
+
+#about {
 }
