@@ -104,6 +104,10 @@ body {
   );
   justify-content: space-around;
 }
+#projects h1 {
+  font-size: 48px;
+}
+
 .projects-list ul {
   display: flex;
   width: 90vw;
@@ -122,15 +126,25 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
+  padding: 10px;
   background-color: black;
   color: white;
 }
 
+#resume h1 {
+  font-size: 48px;
+}
+
 .resume-box {
-  width: 40vw;
+  width: 500px;
   height: 80vh;
   background-color: honeydew;
 }
 
 #about {
+  justify-content: space-around;
+}
+.about-info {
+  width: 65vw;
+  height: auto;
 }
