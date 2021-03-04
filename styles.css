@@ -94,6 +94,8 @@ body {
 }
 
 #projects {
+  display: flex;
+  flex-direction: column;
   background: rgb(34, 195, 159);
   background: linear-gradient(
     0deg,
@@ -117,7 +119,17 @@ body {
 }
 
 #resume {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
   background-color: black;
+  color: white;
+}
+
+.resume-box {
+  width: 40vw;
+  height: 80vh;
+  background-color: honeydew;
 }
 
 #about {
